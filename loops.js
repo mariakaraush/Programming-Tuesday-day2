@@ -31,3 +31,13 @@ for (i = 10; i > 0; i--) {
 
 console.log("Task 4")
 
+for (let i = 1; i <= 1000; i++ ) {
+    let calc = i % 3;
+    if (calc == 0) {
+        console.log(`${i} % 3 = ${calc}`)
+    }
+    calc = i % 4;
+    if (calc == 0) {
+        console.log(`${i} % 4 = ${calc}`)
+    }
+}
