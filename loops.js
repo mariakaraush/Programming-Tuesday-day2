@@ -7,9 +7,17 @@
 
 // console.log("Just finished looping");
 
-const readline = require('readline-sync');
-let userValue = readline.question("Provide a value: ");
+// const readline = require('readline-sync');
+// let userValue = readline.question("Provide a value: ");
 
-for ( let i = 1; i <= 12; i++) {
-    console.log(`${i} x ${userValue} = ${i * userValue}`)
+// for ( let i = 1; i <= 12; i++) {
+//     console.log(`${i} x ${userValue} = ${i * userValue}`)
+// }
+
+// Task 2
+
+console.log("Task 2")
+
+for (let i = 1;  i <= 3; i++) {
+    console.log(Math.pow(i, 2))
 }
