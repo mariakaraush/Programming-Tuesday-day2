@@ -29,15 +29,28 @@ for (i = 10; i > 0; i--) {
 }
 
 
-console.log("Task 4")
+// console.log("Task 4")
 
-for (let i = 1; i <= 1000; i++ ) {
-    let calc = i % 3;
-    if (calc == 0) {
-        console.log(`${i} % 3 = ${calc}`)
-    }
-    calc = i % 4;
-    if (calc == 0) {
-        console.log(`${i} % 4 = ${calc}`)
-    }
-}
+// for (let i = 1; i <= 1000; i++ ) {
+//     let calc = i % 3;
+//     if (calc == 0) {
+//         console.log(`${i} % 3 = ${calc}`)
+//     }
+//     calc = i % 4;
+//     if (calc == 0) {
+//         console.log(`${i} % 4 = ${calc}`)
+//     }
+// }
+
+console.log("Task 5")
+
+let pop = 67765900;
+let year = 0
+
+do {
+    let increase = pop * 0.3;
+    pop = pop + increase
+    year ++
+} while (pop <= 100000000)
+
+console.log(`The population reached 80000000 in ${year} years`)
